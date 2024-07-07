@@ -228,3 +228,57 @@ font-family: "Oswald", sans-serif;
         padding: 165px 15px 80px 15px;
     }
 }
+
+.request {
+    background-color: var(--acccent-color);
+}
+.request__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.request-h2 {
+    font-family: Oswald;
+    color: var(--white-color);
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding-top: 30px;
+    padding-bottom: 7px;
+    text-transform: uppercase;
+}
+.request-h3 {
+    color: var(--white-color);
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    padding-bottom: 39px;
+}
+.request__botton {
+    margin-top: 12px;
+    width: 175px;
+    height: 49px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.request__botton-img {
+    display: inline-block;
+    padding-right: 12px;
+}
+
+@media screen and (max-width: 1280px) {
+    .request__flex{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}

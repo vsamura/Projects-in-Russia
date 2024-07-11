@@ -300,9 +300,9 @@ font-family: "Oswald", sans-serif;
   color: var(--acccent-color);
   margin-bottom: 24px;
 }
-.question_h3.close {
+/* .question_h3.close {
   margin-bottom: 31px;
-}
+} */
 .question_p {
   margin-bottom: 36px;
   color: var(--gray-color);
@@ -312,7 +312,7 @@ font-family: "Oswald", sans-serif;
   font-weight: 400;
   line-height: 22px;
 }
-.question_h3.open::before,
+/* .question_h3.open::before,
 .question_h3.close::before {
   content: "";
   display: inline-block;
@@ -328,7 +328,7 @@ font-family: "Oswald", sans-serif;
 }
 .question_h3.close + .question_p {
   display: none;
-}
+} */ 
 .partners {
   background-color: var(--dark-color);
   padding-bottom: 100px;

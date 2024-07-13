@@ -416,6 +416,8 @@ font-family: "Oswald", sans-serif;
 .contacts-p {
   font-size: 24px;
   font-weight: 500;
+  color: #000;
+  text-decoration: none;
 }
 .contacts-p-acccent {
   color: var(--acccent-color);

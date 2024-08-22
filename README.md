@@ -1,5 +1,5 @@
 ## The largest projects in Russia 
-### Одна из первых моих работ  на GitHub  
+### Одна из первых моих работ на GitHub  
 
 ![screenshot](README/The-largest-projects-in-Russia.png)
 
